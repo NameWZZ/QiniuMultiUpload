@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7872962352C72E00776DBA /* MultiMediaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7872952352C72E00776DBA /* MultiMediaObject.m */; };
+		2A7872982352DFC900776DBA /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7872972352DFC900776DBA /* 1.png */; };
+		2AA8D7352351C3CF001023EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8D7342351C3CF001023EF /* AppDelegate.m */; };
+		2AA8D7382351C3CF001023EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8D7372351C3CF001023EF /* ViewController.m */; };
+		2AA8D73B2351C3CF001023EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA8D7392351C3CF001023EF /* Main.storyboard */; };
+		2AA8D73E2351C3CF001023EF /* QiniuMultiUploadDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8D73C2351C3CF001023EF /* QiniuMultiUploadDemo.xcdatamodeld */; };
+		2AA8D7402351C3DA001023EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA8D73F2351C3DA001023EF /* Assets.xcassets */; };
+		2AA8D7432351C3DA001023EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA8D7412351C3DA001023EF /* LaunchScreen.storyboard */; };
+		2AA8D7462351C3DA001023EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8D7452351C3DA001023EF /* main.m */; };
+		2AA8D7502351C3DA001023EF /* QiniuMultiUploadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8D74F2351C3DA001023EF /* QiniuMultiUploadDemoTests.m */; };
+		2AA8D75B2351C3DB001023EF /* QiniuMultiUploadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8D75A2351C3DB001023EF /* QiniuMultiUploadDemoUITests.m */; };
+		2AA8D76B2351EA47001023EF /* QiniuMultiUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8D76A2351EA47001023EF /* QiniuMultiUploadManager.m */; };
+		2AA8D76E2351F9DA001023EF /* QNResumeUpload+Multi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8D76D2351F9DA001023EF /* QNResumeUpload+Multi.m */; };
+		2AA8D7712351FA86001023EF /* QNFormUpload+Multi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8D7702351FA86001023EF /* QNFormUpload+Multi.m */; };
+		7D8FD778F2D3F22F1769D809 /* libPods-QiniuMultiUploadDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 134F779E28CFEB8D69B53315 /* libPods-QiniuMultiUploadDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AA8D74C2351C3DA001023EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AA8D7282351C3CF001023EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AA8D72F2351C3CF001023EF;
+			remoteInfo = QiniuMultiUploadDemo;
+		};
+		2AA8D7572351C3DB001023EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AA8D7282351C3CF001023EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AA8D72F2351C3CF001023EF;
+			remoteInfo = QiniuMultiUploadDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		134F779E28CFEB8D69B53315 /* libPods-QiniuMultiUploadDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QiniuMultiUploadDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7872942352C72E00776DBA /* MultiMediaObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiMediaObject.h; sourceTree = "<group>"; };
+		2A7872952352C72E00776DBA /* MultiMediaObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiMediaObject.m; sourceTree = "<group>"; };
+		2A7872972352DFC900776DBA /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2AA8D7302351C3CF001023EF /* QiniuMultiUploadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiniuMultiUploadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA8D7332351C3CF001023EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AA8D7342351C3CF001023EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AA8D7362351C3CF001023EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AA8D7372351C3CF001023EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AA8D73A2351C3CF001023EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AA8D73D2351C3CF001023EF /* QiniuMultiUploadDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QiniuMultiUploadDemo.xcdatamodel; sourceTree = "<group>"; };
+		2AA8D73F2351C3DA001023EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AA8D7422351C3DA001023EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AA8D7442351C3DA001023EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA8D7452351C3DA001023EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AA8D74B2351C3DA001023EF /* QiniuMultiUploadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuMultiUploadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA8D74F2351C3DA001023EF /* QiniuMultiUploadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuMultiUploadDemoTests.m; sourceTree = "<group>"; };
+		2AA8D7512351C3DA001023EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA8D7562351C3DB001023EF /* QiniuMultiUploadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuMultiUploadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA8D75A2351C3DB001023EF /* QiniuMultiUploadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuMultiUploadDemoUITests.m; sourceTree = "<group>"; };
+		2AA8D75C2351C3DB001023EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA8D7692351EA47001023EF /* QiniuMultiUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiniuMultiUploadManager.h; sourceTree = "<group>"; };
+		2AA8D76A2351EA47001023EF /* QiniuMultiUploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuMultiUploadManager.m; sourceTree = "<group>"; };
+		2AA8D76C2351F9DA001023EF /* QNResumeUpload+Multi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QNResumeUpload+Multi.h"; sourceTree = "<group>"; };
+		2AA8D76D2351F9DA001023EF /* QNResumeUpload+Multi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QNResumeUpload+Multi.m"; sourceTree = "<group>"; };
+		2AA8D76F2351FA86001023EF /* QNFormUpload+Multi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QNFormUpload+Multi.h"; sourceTree = "<group>"; };
+		2AA8D7702351FA86001023EF /* QNFormUpload+Multi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QNFormUpload+Multi.m"; sourceTree = "<group>"; };
+		6573127E74D939D8B4AD8747 /* Pods-QiniuMultiUploadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuMultiUploadDemo.release.xcconfig"; path = "Target Support Files/Pods-QiniuMultiUploadDemo/Pods-QiniuMultiUploadDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8C37F988241B0FB0102A6EAA /* Pods-QiniuMultiUploadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuMultiUploadDemo.debug.xcconfig"; path = "Target Support Files/Pods-QiniuMultiUploadDemo/Pods-QiniuMultiUploadDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AA8D72D2351C3CF001023EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8FD778F2D3F22F1769D809 /* libPods-QiniuMultiUploadDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA8D7482351C3DA001023EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA8D7532351C3DB001023EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA8D7272351C3CF001023EF = {
+			isa = PBXGroup;
+			children = (
+				2AA8D7682351EA18001023EF /* QiniuMultiUpload */,
+				2AA8D7322351C3CF001023EF /* QiniuMultiUploadDemo */,
+				2AA8D74E2351C3DA001023EF /* QiniuMultiUploadDemoTests */,
+				2AA8D7592351C3DB001023EF /* QiniuMultiUploadDemoUITests */,
+				2AA8D7312351C3CF001023EF /* Products */,
+				AE689CDA520D7B1DD2119637 /* Pods */,
+				59343C5EA10BABE62F4E0B88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AA8D7312351C3CF001023EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8D7302351C3CF001023EF /* QiniuMultiUploadDemo.app */,
+				2AA8D74B2351C3DA001023EF /* QiniuMultiUploadDemoTests.xctest */,
+				2AA8D7562351C3DB001023EF /* QiniuMultiUploadDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AA8D7322351C3CF001023EF /* QiniuMultiUploadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2A7872972352DFC900776DBA /* 1.png */,
+				2AA8D7332351C3CF001023EF /* AppDelegate.h */,
+				2AA8D7342351C3CF001023EF /* AppDelegate.m */,
+				2AA8D7362351C3CF001023EF /* ViewController.h */,
+				2AA8D7372351C3CF001023EF /* ViewController.m */,
+				2AA8D7392351C3CF001023EF /* Main.storyboard */,
+				2AA8D73F2351C3DA001023EF /* Assets.xcassets */,
+				2AA8D7412351C3DA001023EF /* LaunchScreen.storyboard */,
+				2AA8D7442351C3DA001023EF /* Info.plist */,
+				2AA8D7452351C3DA001023EF /* main.m */,
+				2AA8D73C2351C3CF001023EF /* QiniuMultiUploadDemo.xcdatamodeld */,
+			);
+			path = QiniuMultiUploadDemo;
+			sourceTree = "<group>";
+		};
+		2AA8D74E2351C3DA001023EF /* QiniuMultiUploadDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8D74F2351C3DA001023EF /* QiniuMultiUploadDemoTests.m */,
+				2AA8D7512351C3DA001023EF /* Info.plist */,
+			);
+			path = QiniuMultiUploadDemoTests;
+			sourceTree = "<group>";
+		};
+		2AA8D7592351C3DB001023EF /* QiniuMultiUploadDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8D75A2351C3DB001023EF /* QiniuMultiUploadDemoUITests.m */,
+				2AA8D75C2351C3DB001023EF /* Info.plist */,
+			);
+			path = QiniuMultiUploadDemoUITests;
+			sourceTree = "<group>";
+		};
+		2AA8D7682351EA18001023EF /* QiniuMultiUpload */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8D7692351EA47001023EF /* QiniuMultiUploadManager.h */,
+				2AA8D76A2351EA47001023EF /* QiniuMultiUploadManager.m */,
+				2A7872942352C72E00776DBA /* MultiMediaObject.h */,
+				2A7872952352C72E00776DBA /* MultiMediaObject.m */,
+				2AA8D76C2351F9DA001023EF /* QNResumeUpload+Multi.h */,
+				2AA8D76D2351F9DA001023EF /* QNResumeUpload+Multi.m */,
+				2AA8D76F2351FA86001023EF /* QNFormUpload+Multi.h */,
+				2AA8D7702351FA86001023EF /* QNFormUpload+Multi.m */,
+			);
+			path = QiniuMultiUpload;
+			sourceTree = "<group>";
+		};
+		59343C5EA10BABE62F4E0B88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				134F779E28CFEB8D69B53315 /* libPods-QiniuMultiUploadDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE689CDA520D7B1DD2119637 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C37F988241B0FB0102A6EAA /* Pods-QiniuMultiUploadDemo.debug.xcconfig */,
+				6573127E74D939D8B4AD8747 /* Pods-QiniuMultiUploadDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AA8D72F2351C3CF001023EF /* QiniuMultiUploadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA8D75F2351C3DB001023EF /* Build configuration list for PBXNativeTarget "QiniuMultiUploadDemo" */;
+			buildPhases = (
+				7B80AD2BD1524E002AE1806A /* [CP] Check Pods Manifest.lock */,
+				2AA8D72C2351C3CF001023EF /* Sources */,
+				2AA8D72D2351C3CF001023EF /* Frameworks */,
+				2AA8D72E2351C3CF001023EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiniuMultiUploadDemo;
+			productName = QiniuMultiUploadDemo;
+			productReference = 2AA8D7302351C3CF001023EF /* QiniuMultiUploadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AA8D74A2351C3DA001023EF /* QiniuMultiUploadDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA8D7622351C3DB001023EF /* Build configuration list for PBXNativeTarget "QiniuMultiUploadDemoTests" */;
+			buildPhases = (
+				2AA8D7472351C3DA001023EF /* Sources */,
+				2AA8D7482351C3DA001023EF /* Frameworks */,
+				2AA8D7492351C3DA001023EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AA8D74D2351C3DA001023EF /* PBXTargetDependency */,
+			);
+			name = QiniuMultiUploadDemoTests;
+			productName = QiniuMultiUploadDemoTests;
+			productReference = 2AA8D74B2351C3DA001023EF /* QiniuMultiUploadDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AA8D7552351C3DB001023EF /* QiniuMultiUploadDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA8D7652351C3DB001023EF /* Build configuration list for PBXNativeTarget "QiniuMultiUploadDemoUITests" */;
+			buildPhases = (
+				2AA8D7522351C3DB001023EF /* Sources */,
+				2AA8D7532351C3DB001023EF /* Frameworks */,
+				2AA8D7542351C3DB001023EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AA8D7582351C3DB001023EF /* PBXTargetDependency */,
+			);
+			name = QiniuMultiUploadDemoUITests;
+			productName = QiniuMultiUploadDemoUITests;
+			productReference = 2AA8D7562351C3DB001023EF /* QiniuMultiUploadDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AA8D7282351C3CF001023EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = namewzz;
+				TargetAttributes = {
+					2AA8D72F2351C3CF001023EF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2AA8D74A2351C3DA001023EF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2AA8D72F2351C3CF001023EF;
+					};
+					2AA8D7552351C3DB001023EF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2AA8D72F2351C3CF001023EF;
+					};
+				};
+			};
+			buildConfigurationList = 2AA8D72B2351C3CF001023EF /* Build configuration list for PBXProject "QiniuMultiUploadDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AA8D7272351C3CF001023EF;
+			productRefGroup = 2AA8D7312351C3CF001023EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AA8D72F2351C3CF001023EF /* QiniuMultiUploadDemo */,
+				2AA8D74A2351C3DA001023EF /* QiniuMultiUploadDemoTests */,
+				2AA8D7552351C3DB001023EF /* QiniuMultiUploadDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AA8D72E2351C3CF001023EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA8D7432351C3DA001023EF /* LaunchScreen.storyboard in Resources */,
+				2A7872982352DFC900776DBA /* 1.png in Resources */,
+				2AA8D7402351C3DA001023EF /* Assets.xcassets in Resources */,
+				2AA8D73B2351C3CF001023EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA8D7492351C3DA001023EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA8D7542351C3DB001023EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B80AD2BD1524E002AE1806A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiniuMultiUploadDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA8D72C2351C3CF001023EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA8D76E2351F9DA001023EF /* QNResumeUpload+Multi.m in Sources */,
+				2AA8D7382351C3CF001023EF /* ViewController.m in Sources */,
+				2AA8D7352351C3CF001023EF /* AppDelegate.m in Sources */,
+				2AA8D7712351FA86001023EF /* QNFormUpload+Multi.m in Sources */,
+				2AA8D76B2351EA47001023EF /* QiniuMultiUploadManager.m in Sources */,
+				2AA8D7462351C3DA001023EF /* main.m in Sources */,
+				2AA8D73E2351C3CF001023EF /* QiniuMultiUploadDemo.xcdatamodeld in Sources */,
+				2A7872962352C72E00776DBA /* MultiMediaObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA8D7472351C3DA001023EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA8D7502351C3DA001023EF /* QiniuMultiUploadDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA8D7522351C3DB001023EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA8D75B2351C3DB001023EF /* QiniuMultiUploadDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AA8D74D2351C3DA001023EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AA8D72F2351C3CF001023EF /* QiniuMultiUploadDemo */;
+			targetProxy = 2AA8D74C2351C3DA001023EF /* PBXContainerItemProxy */;
+		};
+		2AA8D7582351C3DB001023EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AA8D72F2351C3CF001023EF /* QiniuMultiUploadDemo */;
+			targetProxy = 2AA8D7572351C3DB001023EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AA8D7392351C3CF001023EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA8D73A2351C3CF001023EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AA8D7412351C3DA001023EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA8D7422351C3DA001023EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AA8D75D2351C3DB001023EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AA8D75E2351C3DB001023EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AA8D7602351C3DB001023EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C37F988241B0FB0102A6EAA /* Pods-QiniuMultiUploadDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiniuMultiUploadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Name.QiniuMultiUploadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AA8D7612351C3DB001023EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6573127E74D939D8B4AD8747 /* Pods-QiniuMultiUploadDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiniuMultiUploadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Name.QiniuMultiUploadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AA8D7632351C3DB001023EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiniuMultiUploadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Name.QiniuMultiUploadDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuMultiUploadDemo.app/QiniuMultiUploadDemo";
+			};
+			name = Debug;
+		};
+		2AA8D7642351C3DB001023EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiniuMultiUploadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Name.QiniuMultiUploadDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuMultiUploadDemo.app/QiniuMultiUploadDemo";
+			};
+			name = Release;
+		};
+		2AA8D7662351C3DB001023EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiniuMultiUploadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Name.QiniuMultiUploadDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QiniuMultiUploadDemo;
+			};
+			name = Debug;
+		};
+		2AA8D7672351C3DB001023EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiniuMultiUploadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Name.QiniuMultiUploadDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QiniuMultiUploadDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AA8D72B2351C3CF001023EF /* Build configuration list for PBXProject "QiniuMultiUploadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA8D75D2351C3DB001023EF /* Debug */,
+				2AA8D75E2351C3DB001023EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA8D75F2351C3DB001023EF /* Build configuration list for PBXNativeTarget "QiniuMultiUploadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA8D7602351C3DB001023EF /* Debug */,
+				2AA8D7612351C3DB001023EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA8D7622351C3DB001023EF /* Build configuration list for PBXNativeTarget "QiniuMultiUploadDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA8D7632351C3DB001023EF /* Debug */,
+				2AA8D7642351C3DB001023EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA8D7652351C3DB001023EF /* Build configuration list for PBXNativeTarget "QiniuMultiUploadDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA8D7662351C3DB001023EF /* Debug */,
+				2AA8D7672351C3DB001023EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2AA8D73C2351C3CF001023EF /* QiniuMultiUploadDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AA8D73D2351C3CF001023EF /* QiniuMultiUploadDemo.xcdatamodel */,
+			);
+			currentVersion = 2AA8D73D2351C3CF001023EF /* QiniuMultiUploadDemo.xcdatamodel */;
+			path = QiniuMultiUploadDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AA8D7282351C3CF001023EF /* Project object */;
+}
